@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Interfaz</string>
+    <string name="button_text">Ingresar</string>
+    <string name="email">Correo</string>
+    <string name="button_textAdmin">Administrador</string>
+    <string name="button_textEmpleado">Empleado</string>
+    <string name="button_text_save">Guardar</string>
+    <string name="editTextName">Nombre</string>
+    <string name="button_textPhone">Telefono</string>
+    <string name="button_textAddress">Domicilio</string>
+</resources>
