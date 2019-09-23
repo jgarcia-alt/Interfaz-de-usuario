@@ -8,4 +8,11 @@
     <string name="editTextName">Nombre</string>
     <string name="button_textPhone">Telefono</string>
     <string name="button_textAddress">Domicilio</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+    <string name="new_reg">Nuevo Registro</string>
+    <string name="button_viewEmpl">Ver Empleados</string>
+    <string name="reg_entry">Registrar Ingreso</string>
+    <string name="sign_hist">Historial de firmas</string>
+    <string name="sign_entry">Firmar Entrada</string>
+    <string name="padding_border">25dp</string>
 </resources>

@@ -6,33 +6,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_blue"
     >
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
-
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="50dp"
+        android:padding="@string/padding_border"
         >
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/button_text"
+            android:text="@string/new_reg"
+            android:theme="@style/RaisedButtonDark"
             />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button_textEmpleado"
+            android:text="@string/button_viewEmpl"
+            android:theme="@style/RaisedButtonDark"
             />
 
     </LinearLayout>
