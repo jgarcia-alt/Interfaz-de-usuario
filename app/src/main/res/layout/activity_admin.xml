@@ -21,8 +21,14 @@
         android:orientation="vertical"
         android:padding="@string/padding_border"
         >
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/icon_admin"
 
+            />
         <Button
+            android:id="@+id/buttonNewUser"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/new_reg"
@@ -30,6 +36,7 @@
             />
 
         <Button
+            android:id="@+id/buttonViewUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/button_viewEmpl"

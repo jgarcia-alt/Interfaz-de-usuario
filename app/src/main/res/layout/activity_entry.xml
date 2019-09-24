@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="@string/padding_border"
-    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@string/padding_border"
+        >
 
-<Button
-    android:id="@+id/buttonRegEntry"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/reg_entry"
-    >
-</Button>
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/icon_user_menu"
+        />
+
+    <Button
+        android:id="@+id/buttonRegEntry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_entry"
+        android:theme="@style/RaisedButtonDark"
+
+        />
 
     <Button
         android:id="@+id/buttonSignHist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_hist"
-        >
-    </Button>
+        android:theme="@style/RaisedButtonDark"
+        />
 
-</LinearLayout>
+    </LinearLayout>

@@ -7,10 +7,18 @@
     android:padding="@string/padding_border"
     >
 
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/icon_user_sign"
+        />
+
     <Button
+        android:id="@+id/buttonSignEntry"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_entry"
+        android:theme="@style/RaisedButtonDark"
         />
 
 </LinearLayout>

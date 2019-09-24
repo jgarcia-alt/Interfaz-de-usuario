@@ -15,14 +15,22 @@
     android:orientation="vertical"
     >
 
-    <EditText
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/icon_user"
+        >
+
+    </ImageView>
+
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
         />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edtEmpleado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +46,7 @@
         >
 
     <Button
-        android:id="@+id/edtLogin"
+        android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/button_text"
