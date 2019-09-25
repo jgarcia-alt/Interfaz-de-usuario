@@ -8,9 +8,11 @@
     >
 
     <ImageView
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
         android:background="@drawable/icon_history"
+        android:layout_marginStart="130dp"
+
         />
 
 </LinearLayout>

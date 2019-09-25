@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -6,6 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/howsimple_blue"
     >
 
 <LinearLayout
@@ -16,26 +18,67 @@
     >
 
     <ImageView
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="@dimen/icon_size"
+        android:layout_height="@dimen/icon_size"
         android:background="@drawable/icon_user"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         >
 
-    </ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_mail"
+            />
 
-    <com.google.android.material.textfield.TextInputEditText
+        <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/edtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email"
         />
 
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/edtEmpleado"
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/button_textEmpleado"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/icon_key"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_textPassword"
         />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/button_text"
+        android:theme="@style/RaisedButtonDark"
+        android:layout_marginTop="20dp"
+        />
+
+
 </LinearLayout>
 
     <LinearLayout
@@ -44,14 +87,6 @@
         android:orientation="vertical"
         android:padding="25dp"
         >
-
-    <Button
-        android:id="@+id/buttonLogin"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/button_text"
-        android:theme="@style/RaisedButtonDark"
-        />
 
     <Button
         android:id="@+id/buttonEmpl"

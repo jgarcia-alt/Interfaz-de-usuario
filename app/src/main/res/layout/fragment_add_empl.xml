@@ -6,7 +6,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
     >
 
     <LinearLayout
@@ -16,9 +15,11 @@
         android:orientation="vertical"
         >
         <ImageView
-            android:layout_width="96dp"
-            android:layout_height="96dp"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
             android:background="@drawable/icon_add_user"
+            android:layout_marginStart="130dp"
+
             />
 
         <com.google.android.material.textfield.TextInputEditText
@@ -26,7 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/editTextName"
-            android:textColor="@android:color/white"
             android:inputType="text"
             />
 
@@ -43,7 +43,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/button_textPhone"
-            android:textColor="@android:color/white"
             android:inputType="phone"
             />
 
@@ -52,7 +51,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/button_textAddress"
-            android:textColor="@android:color/white"
             android:inputType="text"
             />
     </LinearLayout>

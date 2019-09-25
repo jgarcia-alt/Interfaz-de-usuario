@@ -5,13 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/splash_background"
-        />
+    tools:context=".MainActivity"
+    android:background="@drawable/howsimple_blue"
+    >
 
     <ImageView
         android:layout_width="128dp"

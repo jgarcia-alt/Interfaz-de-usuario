@@ -6,7 +6,7 @@
     <string name="button_textEmpleado">Empleado</string>
     <string name="button_text_save">Guardar</string>
     <string name="editTextName">Nombre</string>
-    <string name="button_textPhone">Telefono</string>
+    <string name="button_textPhone">Teléfono</string>
     <string name="button_textAddress">Domicilio</string>
     <string name="title_activity_referencia">ReferenciaActivity</string>
     <string name="new_reg">Nuevo Registro</string>
@@ -15,4 +15,5 @@
     <string name="sign_hist">Historial de firmas</string>
     <string name="sign_entry">Firmar Entrada</string>
     <string name="padding_border">25dp</string>
+    <string name="edt_textPassword">Contraseña</string>
 </resources>

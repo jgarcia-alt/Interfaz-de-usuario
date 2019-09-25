@@ -21,12 +21,15 @@
         android:orientation="vertical"
         android:padding="@string/padding_border"
         >
-        <ImageView
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:background="@drawable/icon_admin"
 
+        <ImageView
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:background="@drawable/icon_admin"
+            android:layout_marginStart="130dp"
+            android:layout_marginBottom="20dp"
             />
+
         <Button
             android:id="@+id/buttonNewUser"
             android:layout_width="match_parent"
